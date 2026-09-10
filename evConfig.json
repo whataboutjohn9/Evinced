@@ -1,0 +1,14 @@
+{
+  "switchOn": true,
+  "scan": {
+    "screenshots": {
+      "enabled": true
+    }
+  },
+  "report": {
+    "format": "html",
+    "outputDir": "./evincedReports",
+    "fileName": "aggregatedReport",
+    "aggregate": true
+  }
+}
