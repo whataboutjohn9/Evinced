@@ -24,11 +24,11 @@ Audit Screenshots: evincedReports/screenshots/
 Key Deliverables
 Authentication & Global Setup (global.setup.js)
 
-Configures the assigned Service ID (922eff48-df42-cd03-0d83-8f1b7efc2f5a) and API secret via setCredentials() prior to test suite execution.
+Configures the assigned Service ID and API secret via environment variables (EVINCED_SERVICE_ID, EVINCED_API_KEY) and setCredentials() prior to test suite execution.
 
 Configuration (evConfig.json)
 
-Implements modern structured schema enabling full-page visual defect screenshots (scan.screenshots.enabled: true) and automated HTML aggregation.
+Implements a modern structured schema enabling full-page visual defect screenshots (scan.screenshots.enabled: true) and automated HTML aggregation.
 
 Test Specs (tests/a11y.spec.js)
 
